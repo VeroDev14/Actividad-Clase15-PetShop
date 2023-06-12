@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.barra-top {
+  display: none;
+}
+
+.menu {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.fa-bars {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: none;
+}
+
+.slide {
+  background-image: url("../img/bowl-and-pet-daities-on-green-background.jpg");
+  background-position: left;
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.slide-texto {
+  color: #3c2313;
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  text-align: right;
+}
+
+.slide-titulo {
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding: 10px 30px;
+}
+
+.slide-parrafo {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.slide-button {
+  background-color: #f0a83e;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 18px 23px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.destacados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.titulo-destacado {
+  color: #3c2313;
+  font-size: 2.5rem;
+  margin: 10px 0 26px;
+  text-align: center;
+}
+
+.categoria-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.categoria-link {
+  color: #666666;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.producto {
+  background-color: #fbfaf6;
+  text-align: center;
+}
+
+.producto-img {
+  width: 230px;
+}
+
+.producto-nombre {
+  color: #3c2313;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.producto-precio {
+  color: #f0a83e;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.contactanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.titulo-contactanos {
+  color: #3c2313;
+  font-size: 2.5rem;
+  margin: 30px 0 20px;
+}
+
+.input-form {
+  background-color: #3c2313;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  width: 340px;
+}
+
+.opciones {
+  margin-top: 30px;
+}
+
+.btn-opciones {
+  background-color: #f0a83e;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 60px;
+}
+
+.reset {
+  background-color: #8a8787;
+}
+
+.suscribete {
+  background-color: #f0a83e;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 8px 20px;
+}
+
+.msj-suscribete {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-suscribete {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.input-suscribete {
+  border: none;
+  border-radius: 15px;
+  font-size: 0.6rem;
+  padding: 5px 5px;
+  width: 260px;
+}
+
+.btn-suscribete {
+  border: none;
+  border-radius: 15px;
+  background-color: #3c2313;
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 8px 8px;
+  margin-left: 10px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c2313;
+  color: #ffffff;
+  padding: 20px 80px;
+}
+
+.contacto-dato {
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  align-items: center;
+}
+
+.text-dato h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.text-dato p {
+  color: #8a8787;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.icono-footer {
+  background-color: #8a8787;
+  border: 6px solid #786960;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.copyright {
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 5px 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .barra-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: #f3f3f3;
+    font-size: 11px;
+    padding: 5px 90px;
+  }
+
+  .top-opciones {
+    display: flex;
+    gap: 10px;
+  }
+
+  .fa-chevron-down {
+    font-size: 8px;
+    margin-left: 3px;
+  }
+
+  .moneda p {
+    text-transform: uppercase;
+  }
+
+  .menu {
+    padding: 20px 40px;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-link {
+    color: #f3f3f3;
+    text-decoration: none;
+  }
+
+  .fa-paw {
+    margin-right: 3px;
+  }
+
+  .slide {
+    background-position: top;
+    height: 500px;
+  }
+
+  .slide-texto {
+    text-align: center;
+  }
+
+  .slide-titulo {
+    font-size: 1.88rem;
+    padding: 10px 20px;
+  }
+
+  .productos {
+    flex-direction: row;
+  }
+
+  .btn-opciones {
+    padding: 8px 23px;
+  }
+
+  .suscribete {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+  }
+
+  .form-suscribete {
+    margin-bottom: 0px;
+  }
+
+  .input-suscribete {
+    padding: 12px 10px;
+    width: 271px;
+  }
+
+  .footer-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
